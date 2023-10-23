@@ -1,0 +1,47 @@
+format = """
+[  ](#344E41)\
+$username\
+[](bg:#446a4b fg:#344e41)\
+$directory\
+[](fg:#446a4b bg:#588157)\
+$time\
+[ ](fg:#588157)\
+"""
+
+# Disable the blank line at the start of the prompt
+# add_newline = false
+
+# You can also replace your username with a neat symbol like   or disable this
+# and use the os module below
+[username]
+show_always = true
+style_user = "bg:#344E41"
+style_root = "bg:#344E41"
+format = '[$user ]($style)'
+disabled = false
+
+[directory]
+style = "bg:#446a4b"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+# Here is how you can shorten some long paths by text replacement
+# similar to mapped_locations in Oh My Posh:
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+# Keep in mind that the order matters. For example:
+# "Important Documents" = " 󰈙 "
+# will not be replaced, because "Documents" was already substituted before.
+# So either put "Important Documents" before "Documents" or use the substituted version:
+# "Important 󰈙 " = " 󰈙 "
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#588157"
+format = '[ ✧ $time ]($style)'
+
