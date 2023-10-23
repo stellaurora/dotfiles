@@ -1,0 +1,24 @@
+on-button-middle=exec makoctl dismiss -a
+border-size=2
+border-radius=12
+background-color=#15201b88
+outer-margin= 0, 10, 0, 10
+text-color=#dad7cd
+border-color=#588157
+padding=0,10,15,10
+
+width=380
+height=150
+icons=0
+text-alignment=left
+markup=1
+format=<span font_family="IBM Plex Sans" size="14pt"><span size="11pt"></span> <span variant="all-petite-caps" weight="800">%a  %s</span></span>\n<span font_family="IBM Plex Sans" weight="550" size="10.5pt">%b</span>
+
+[app-name="discord"]
+format=<span font_family="IBM Plex Sans" size="14pt"><span size="11pt"></span> <span variant="all-petite-caps" weight="800">%a  %s</span></span>\n<span font_family="IBM Plex Sans" weight="550" size="10.5pt">%b</span>
+
+[app-name="blueman"]
+format=<span font_family="IBM Plex Sans" size="14pt"><span size="11pt"></span> <span variant="all-petite-caps" weight="800">%a  %s</span></span>\n<span font_family="IBM Plex Sans" weight="550" size="10.5pt">%b</span>
+
+[app-name="Firefox"]
+format=<span font_family="IBM Plex Sans" size="14pt"><span size="11pt"></span> <span variant="all-petite-caps" weight="800">%a  %s</span></span>\n<span font_family="IBM Plex Sans" weight="550" size="10.5pt">%b</span>

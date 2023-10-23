@@ -1,0 +1,49 @@
+{
+    "layer": "top",
+    "width": 1880,
+    "margin-top": 15,
+    "modules-center": ["clock"],
+    "modules-right": ["custom/notification","cpu", "battery", "wireplumber", "custom/maxvol", "backlight", "network"],
+    "modules-left": ["hyprland/window"],
+    "clock": {
+        "format": "{:%H:%M | %b %d}"
+    },
+    "battery": {
+    	"format-icons": ["", "", "", "", ""],
+        "format": "{capacity} {icon}",
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid}  ",
+        "format-ethernet": "Connected  ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ",
+        "format-alt": "{ipaddr} "
+    },
+    "wireplumber": {
+        "format": "{volume} {icon}",
+        "format-muted": "",
+        "format-icons": ["", ""],
+        "on-click": "pamixer --toggle-mute",
+	    "on-scroll-up": "bash ~/volume/volume.sh 1",
+	    "on-scroll-down": "bash ~/volume/volume.sh 0"
+    },
+    "custom/maxvol": {
+    	"format": "{} ",
+	    "exec": "cat ~/volume/max-volume",
+	    "exec-on-event": true,
+	    "signal": 8,
+	    "interval": "once",
+	    "on-scroll-up": "bash ~/volume/increment.sh 1",
+	    "on-scroll-down": "bash ~/volume/increment.sh -1"
+    },
+    "cpu": {
+        "format": "{usage}% "
+    },
+    "backlight": {
+        "format": "{percent} "
+    },
+    "hyprland/window": {
+        "format": "  {title}"
+    }
+}

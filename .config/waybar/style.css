@@ -1,0 +1,103 @@
+window#waybar {
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    padding-top: 50px;
+    border-radius: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: #588157;
+    background-color: rgba(21, 32, 27, 0.4);
+}
+
+#clock {
+    font-weight: bold;
+    color: #dad7cd;
+    padding-left: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 50px;
+    border-radius: 12px;
+    border-left: 2px solid #588157;
+    border-right: 2px solid #588157;
+    background-color: rgba(21, 32, 27, 0.3);
+}
+
+#battery {
+    color: #dad7cd;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px 0 0 12px;
+    border: 2px solid #588157;
+    border-right: none;
+    background-color: rgba(21, 32, 27, 0.3);
+}
+
+#wireplumber {
+    color: #dad7cd;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px 0 0 12px;
+    border: 2px solid #588157;
+    border-right: none;
+    background-color: rgba(21, 32, 27, 0.3);
+}
+
+#custom-maxvol {
+    color: #dad7cd;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px 0 0 12px;
+    border: 2px solid #588157;
+    border-right: none;
+    background-color: rgba(21, 32, 27, 0.3);
+}
+
+#backlight {
+    color: #dad7cd;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px 0 0 12px;
+    border: 2px solid #588157;
+    border-right: none;
+    background-color: rgba(21, 32, 27, 0.3);
+}
+
+
+#network {
+    color: #dad7cd;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    border: 2px solid #588157;
+    background-color: rgba(21, 32, 27, 0.3);
+}
+
+#window {
+    color: #dad7cd;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    border: 2px solid #588157;
+    background-color: rgba(21, 32, 27, 0.3);
+}
+
+#workspaces button {
+    color: #dad7cd;
+}
+
+#cpu {
+    color: #dad7cd;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px 0 0 12px;
+    border: 2px solid #588157;
+    border-right: none;
+    background-color: rgba(21, 32, 27, 0.3);
+}
