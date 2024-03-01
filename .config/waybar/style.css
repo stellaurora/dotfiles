@@ -1,3 +1,7 @@
+* {
+    font-family: 'IBM Plex Sans', 'Font Awesome 6 Free', sans-serif;
+}
+
 window#waybar {
     font-family: 'IBM Plex Sans';
     font-weight: 600;

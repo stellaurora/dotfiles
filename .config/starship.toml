@@ -1,5 +1,4 @@
-format = """
-[  ](#344E41)\
+format = """[](#344E41)\
 $username\
 [](bg:#446a4b fg:#344e41)\
 $directory\
